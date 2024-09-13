@@ -1,0 +1,105 @@
+/* Hide Chat and Detail components on screens smaller than 768px */
+@media (max-width: 768px) {
+    
+    .detail {
+      display: none;
+    }
+
+  }
+  @media (max-width: 576px) {
+    .
+    .detail {
+      display: none;
+    }
+  }
+  @media (max-width: 1024px) {
+    
+    .detail {
+      display: none;
+    }
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 80vw;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Make List component full width on mobile */
+  @media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+      }
+    
+      .list {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+      }
+    
+  }
+  @media (max-width: 576px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+      }
+    
+      .list {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+      }
+    
+  }
+  @media (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        width: 90vw;
+        padding: 0;
+        margin: 0;
+      }
+    
+      .list {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    
+  }
+
+  @media (max-width: 500px) {
+    .container {
+      
+    
+      width: 100vw
+      
+    }
+   
+    
+  }
+  
