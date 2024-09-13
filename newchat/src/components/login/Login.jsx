@@ -92,7 +92,7 @@ const Login = () => {
           <input type="text" placeholder="Username" name="username" required />
           <input type="email" placeholder="Email" name="email" required />
           <input type="password" placeholder="Password" name="password" required />
-          <button disabled={loading}>{loading ? "Loading" : "Sign Up"}</button>
+          <button disabled={loading}>{loading ? "Wait a few seconds" : "Sign Up"}</button>
         </form>
         <div className="sign-in-link">
           <p>Already have an account? <Link to="/">Sign In</Link></p>
