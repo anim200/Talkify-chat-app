@@ -34,7 +34,7 @@ const Login2 = () => {
       setTimeout(()=>{
         navigate('/list');
 
-      },2000)
+      },3000)
       
 
       // Cleanup the listener when the component unmounts
