@@ -1,4 +1,4 @@
-# Talkify-chat-app
+# Talkify Chat App
 
 **Talkify** is a feature-rich real-time chat application designed to make conversations seamless, engaging, and fun. With **Talkify**, users can connect with friends, share moments, and express themselves through emojis and images, all in a secure and user-friendly environment.
 
@@ -14,14 +14,11 @@ The application empowers users to:
 
 ## 🌐 Website Link
 
-[Visit Talkify Here](#)  
-*(https://talkify-chat-app-cyan.vercel.app/)*
+[Visit Talkify Here](https://talkify-chat-app-cyan.vercel.app/)
 
 ---
 
 ## ⚙️ Development Stack
-
-
 
 The **Talkify** chat application is built using a modern tech stack that ensures seamless functionality, robust performance, and scalability. Below is the breakdown of the technologies used:
 
@@ -46,18 +43,16 @@ This tech stack provides a perfect balance of simplicity and functionality, allo
 
 ## 📜 Table of Contents
 
-1. [Features](#features)
-2. [User Interface Screens](#user-interface-screens)
-   - [Login Page & Register Page](#intro-page)
-   - [Searching & Add friend page](#search-add-friend-page)
+1. [Features](#-features)
+2. [User Interface Screens](#-user-interface-screens)
+   - [Login & Register](#login--register)
+   - [Searching & Add Friend Page](#searching--add-friend-page)
    - [Chat Page](#chat-page)
-   
 3. [Development Setup](#development-setup)
 
 ---
 
 ## ✨ Features
-
 
 **Talkify** offers a wide range of features designed to enhance the chatting experience and provide users with full control over their interactions:
 
@@ -93,30 +88,57 @@ This tech stack provides a perfect balance of simplicity and functionality, allo
 
 **Talkify** combines all these features to create a powerful and enjoyable platform for communication.
 
+---
 
 ## 📱 User Interface Screens
 
-### 1. Login & Register
-The login and register has been firebase authentication. While Registering their account user will be able to upload their image.
+### Login & Register
+The login and register functionality is powered by Firebase authentication. While registering, users can upload their profile images.
 
 ![Register Page](https://i.imgur.com/0wcxTCr.png)
 ![Register Page](https://i.imgur.com/3lWDrF1.png)
 
+### Searching & Add Friend Page
+Users can search for friends and add them through this page.
 
----
+![Searching & Add Friend Page](https://i.imgur.com/1DT9Hij.png)
+![Searching & Add Friend Page](https://i.imgur.com/vaq7DmT.png)
 
-### 2. Searching & Add friend page
-- Users can search their friends and add them through this page.
+### Chat Page
+After adding a friend, users can now chat with them. Users can:
+- Send real-time messages, including text and images.
+- Block their friends if needed.
 
-![ Searching & Add friend page](https://i.imgur.com/1DT9Hij.png)
-![ Searching & Add friend page](https://i.imgur.com/vaq7DmT.png)
-
----
-
-### 3. Chat Page
-- After adding his friend user can now chat with him.
-- He can send real time messages,text and images.
-- User can even block his friend.
 ![Chat Page](https://i.imgur.com/AHUIbpg.png)
 
 ---
+
+## Development Setup
+
+To set up the development environment for **Talkify**, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/talkify-chat-app.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd talkify-chat-app
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and navigate to `http://localhost:3000` to view the application.
+
+---
+
+Enjoy chatting with **Talkify**!
